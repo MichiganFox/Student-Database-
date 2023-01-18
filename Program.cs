@@ -47,12 +47,10 @@ do
 
         //Validate user number: Use an if statement to check if the number is out of range, i.e. either less than 1 or greater than the length of the arrays. If so, display a friendly message and let the user try again.
         // Array Length: Use the first array’s Length property in your code instead of hardcoding it.
-        if (i > -1 && i < 12)
+        if (i > 0 && i < names.Length)
         {
             Console.WriteLine(names[i]);
             break;
-           
-
         }
         else
         {
